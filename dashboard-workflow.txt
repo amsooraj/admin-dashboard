@@ -1,0 +1,40 @@
+Dashboard - Angular project Workflow
+
+1. create project : ng new admin-Dashboard
+2. run project : ng serve (in project folder)
+3. Install/add 3rd party libraries to complete the project
+    - Install Angular material : nd add @angular/material
+        - choose prebuild theme
+        - enable typograhy
+        - enable animation
+    - To use any components from material :-
+        copy the api for particular component and paste it in AppModule.ts    
+4. Delete all contents in AppComponent.html file
+5. Check third party libraries working in projects or not 
+        if not import prebuild theme to your project style.css file
+6. Generate components
+    - header
+    - footer
+    - sidebar
+    - Dashboard
+        - card
+        - area-chart
+        - table
+        - pie-chart       
+        - employess
+        - gallery
+        - contact
+        - leads 
+7. Design components
+8. set up path for components and update
+    - Dashboard
+    - Employees
+    - Gallery
+    - Contact
+    - Leads
+9. To add chart : use highcharts angular     
+    - by using command : npm install highcharts-angular --save
+    - Import highchartsChartModule in AppModule
+    - Install highcharts using command : npm install highcharts --save
+    - Import highcharts in component where we will display chart
+    
